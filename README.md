@@ -2,6 +2,8 @@
 
 REST API for managing personal tasks, built with **ASP.NET Core 8** following a layered **Clean Architecture** approach with **CQRS** (MediatR). Users register, log in with JWT, and manage their own tasks.
 
+> 🖥️ **Frontend:** [task-manager-frontend](https://github.com/Carlou134/task-manager-frontend) (Angular)
+
 ## Tech Stack
 
 | Concern | Technology |
@@ -155,7 +157,7 @@ DELETE /api/tasks/delete
 
 ## CORS
 
-The `AllowAngularApp` policy allows requests from `http://localhost:4200` (Angular frontend). Add more origins in `Program.cs` when deploying.
+The `AllowAngularApp` policy allows requests from `http://localhost:4200` ([Angular frontend](https://github.com/Carlou134/task-manager-frontend)). Add more origins in `Program.cs` when deploying.
 
 ## Deployment
 
